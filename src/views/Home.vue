@@ -34,6 +34,8 @@
 
       <button type="submit" @click.prevent="login()">Fazer login</button>
     </form>
+
+    <router-link to="/curso">Cadastrar curso</router-link>
   </div>
 </template>
 
